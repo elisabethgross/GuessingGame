@@ -7,7 +7,7 @@ h1 {
     color: black;
 }
 hr {
-    max-width: 50px;
+    max-width: 400px;
     border-color: #f05f40;
     border-width: 3px;
 } 
@@ -23,20 +23,17 @@ header {
 div#buttons {
     margin-top: 25px;
 }
-h3 {
-    font-size: 150px;
-    color: #f05f40;
-}
-span {
+
+/*span {
     font-size: 175px
 }
 span#one {
     font-size: 200px;
-}
+}*/
 
-#numbers {
+/*#numbers {
     float: left;
-}
+}*/
   
 .page-wrap {
     display:table;
@@ -54,7 +51,7 @@ span#one {
 }
     
     
-.keypad > span {
+.keypad span {
     display:inline-block;
     width:50px;
     height:50px;
@@ -64,28 +61,14 @@ span#one {
     border:1px #5A58FF solid;
     background-color:white;    
     font-size:26px;
-    color:#343434;
     transition:.5s;
 }
-.keypad > span:active {
+.keypad span:active {
     color:white;
     background:#5A58FF;
     transition:0s;
 }    
-.call {
-    background-color:#66FF66;
-    font-size:26px;
-    font-weight:200;
-    color:white;
-    line-height:50px;
-    border-radius:5px;
-    transition:0.2s;
-}
-.call:active {
-    box-shadow:0 0 80px 1px black inset;
-    transition:0s;
-}
-    
+
 
 
 
