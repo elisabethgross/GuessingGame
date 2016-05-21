@@ -24,20 +24,29 @@
         </nav>
        
         <header>
-            <div>
-                <div>
-                    <h1>The Best Guessing Game EVER</h1>             <hr>
-                    <p>Guess the number</p>
-                    </form><input type="text" placeholder="1-100"></input>
-                    <a href=# class="btn btn-primary btn-xl">Submit your guess</a>
-                </div>
+            <div id="main">
                 
-                <div id="buttons">
-                    <a href=# class="btn btn-primary btn-xl">Play Again</a>
-                    <a href=# class="btn btn-primary btn-xl">Give me a Hint</a>
+                <div id="message">Total Guesses left: </div>
+                
+                <div id="guesses">10</div>
+
+                <div id="more"></div>
+
+                <div class="game">
+                    <h1>The Best Guessing Game EVER</h1>             
+                    <hr>
+                    <p>Guess the number</p>
+                    <form><input id="guess" type="text" placeholder="1-100">
+                    <a href=# class="btn btn-primary btn-xl user-guess">Submit your guess</a></form>
+                
+                
+                    <div id="buttons">
+                        <a href=# class="btn btn-primary btn-xl playagain">Play Again</a>
+                        <a href=# class="btn btn-primary btn-xl hint">Give me a Hint</a>
+                    </div>
                 </div>
 
-                <div class="page-wrap">
+                <!-- <div class="page-wrap">
                     <div class="keypad">
                         <span class="1">1</span>
                         <span class="2">2</span>
@@ -54,17 +63,13 @@
                         <span class="0">0</span>  
                        <br>
                     </div>  
-                </div>
-    
-
-                <!-- <div class="numbers">
-                    <h3><span id="one">1</span>23<span>4</span>56<span>8</span><span id="one">9</span></h3>
                 </div> -->
                 
             </div> 
 
         </header>        
-        
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script> 
+    <script src='guessingGame.js'></script>   
     </body>
 
 </html>

@@ -3,7 +3,7 @@ html, body {
     height: 100%;
 }
 h1 {
-    margin-top: 150px;
+    margin-top: 55px;
     color: black;
 }
 hr {
@@ -12,32 +12,48 @@ hr {
     border-width: 3px;
 } 
 header {
-    position: relative;
+    /*position: relative;
     width: 100%;
     height: 100%;
-    min-height: auto;
+    min-height: auto;*/
     text-align: center;
     color: black;     
 }
+/*
+div#main {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}*/
+
 
 div#buttons {
     margin-top: 25px;
-}
+}  
 
-/*span {
-    font-size: 175px
+#message {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    font-size: 35px;
 }
-span#one {
-    font-size: 200px;
-}*/
-
-/*#numbers {
-    float: left;
-}*/
-  
-.page-wrap {
+#guesses {
+    width: auto;
+    margin: 20px auto;
+    font-size: 30px;
+    border: 2px solid orange;
+}
+#more {
+    font-size: 30px;
+}
+.game {
+    margin: 100px auto;
+}
+/*.page-wrap {
     display:table;
-    margin:50px auto;
+    margin: 120px auto;
     background:white;
     padding:5px;
     cursor: pointer;
@@ -48,8 +64,8 @@ span#one {
     text-align:center;
     font-family:'Helvetica Neue',sans-serif;
     font-weight:100;
-}
-    
+}*/
+/*    
     
 .keypad span {
     display:inline-block;
@@ -68,7 +84,7 @@ span#one {
     background:#5A58FF;
     transition:0s;
 }    
-
+*/
 
 
 
